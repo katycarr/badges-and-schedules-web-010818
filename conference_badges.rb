@@ -22,3 +22,14 @@ def assign_rooms(array)
   end
   room_list
 end
+
+def printer(array)
+  badge_array = batch_badge_creator(array)
+  badge_array.each do |message|
+    puts message
+  end
+  room_list = assign_rooms(array)
+  room_list.each do |assign|
+    puts assign
+  end
+end
