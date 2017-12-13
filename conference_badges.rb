@@ -20,4 +20,5 @@ def assign_rooms(array)
     string = "Hello, #{name}! You'll be assigned to room #{room}!"
     room_list.push(string)
   end
+  room_list
 end
